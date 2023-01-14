@@ -15,8 +15,8 @@
     --color-primary: #FF900E;
     --color-white: #FFFFFF;
     --color-bg: rgba(255, 144, 14, 0.1);
-    --color-bg1: white;
-    --color-bg2: #FFF4E7;;
+    --color-bg1: #FFFFFF;
+    --color-bg2: #FFF4E7;
 
     --container-width-lg: 82%;
     --container-width-md: 90%;
@@ -37,10 +37,12 @@ body{
     margin: 0 auto;
 }
 
+/* =====all section margin top==== */
 section{
     padding-top: 100px;
 }
 
+/* ======button===== */
 .primary-button {
     width: 180px;
     height: 64px;
@@ -53,7 +55,33 @@ section{
     margin-top: 1.8rem;
 }
 
-.primary-button a:visited {
+.primary-button1 {
+    position: relative;
+    top: -8%;
+    transform: translate(-20%, -30%);
+    -ms-transform: translate(-20%, -30%);
+
+    width: 342px;
+    height: 200px;
+    text-align: center;
+    background: var(--color-primary);
+    color: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 1.8rem;
+    justify-content: center;
+}
+
+.font-big {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.font-small {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.primary-button, .primary-button1 a:visited {
     color: inherit;
 }
 
@@ -63,7 +91,7 @@ section{
 }
 
 main {
-    background: var(--color-white);
+    background: var(--color-bg1);
 }
 /* =======nav======= */
 nav {
@@ -167,4 +195,58 @@ a:visited {
 .feature-info p {
     font-size: 1rem; 
     color: #727272;
+}
+
+/* ========experience====== */
+.experience-container {
+    display: flex;
+    gap: 3rem;
+}
+
+.v_line {
+    border-left: 4px solid #FF900E;
+    height: 8rem;
+    background-position: 5px;
+}
+
+.vertical-line {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.experience-title {
+    width: 468px;
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: #131313;
+}
+
+.experience-details p {
+    font-size: 1rem;
+    color: #727272;
+    width: 586px;
+    margin: 1.5rem 0;
+}
+
+.experience-info {
+    width: 586px;
+    height: 171px;
+}
+
+.experience-info h3 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #131313;
+}
+
+.experience-info p {
+    font-size: 1rem;
+    color: #727272;
+    width: 514px;
+}
+
+.experience-photo img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
