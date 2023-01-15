@@ -39,7 +39,7 @@ body{
 
 /* =====all section margin top==== */
 section{
-    padding-top: 100px;
+    padding-top: 130px;
 }
 
 /* ======button===== */
@@ -131,6 +131,7 @@ a:visited {
 /* =======header===== */
 .Banner-info {
     text-align: center;
+    margin-top: 100px;
     margin-bottom: 55px;
 }
 
@@ -251,7 +252,29 @@ a:visited {
     object-fit: cover;
 }
 
+/* ===latest projects (extra section) ====*/
+.project-container {
+    display: flex;
+    gap: 1.2rem;
+}
 
+.project {
+    margin-top: 10px;
+}
+
+.project img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+
+.project p {
+    font-size: 1rem;
+    color: #727272;
+    width: 314px;
+}
 /* ========facts========== */
 .section-title {
     font-weight: 700;
