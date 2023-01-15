@@ -122,6 +122,10 @@ a:visited {
     color: inherit;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 /* =======header===== */
 .Banner-info {
     text-align: center;
@@ -296,7 +300,26 @@ a:visited {
     border-radius: 8px;
     text-align: center;
     margin-top: 5rem;
-    /* transform: rotate(90deg);     */
+}
+
+/* hover animation */
+.fact-info:hover {
+   cursor: pointer;
+   box-shadow: 5px 5px 20px black;
+   border: none;
+}
+
+.fact-info:hover img {
+    transform: scale(1.1) rotate(-30deg);
+}
+
+.fact-info:hover .rating {
+    color: var(--color-primary) ;
+}
+
+.fact-info:hover .fact-title{
+  background-color: #131313;
+  color: #FFF4E7;
 }
 
 .fact-icon {
@@ -423,10 +446,6 @@ media query
         width: 100%;
     }
 
-
-    .hide {
-        display: none;
-    }
 }
 
 
