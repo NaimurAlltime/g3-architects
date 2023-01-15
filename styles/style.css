@@ -136,15 +136,15 @@ a:visited {
 
 .Banner-info h1 {
     font-weight: 700;
-    font-size: 64px;
+    font-size: 4rem;
     line-height: 75px;
     color: #131313;
 }
 
 .Banner-info p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #727272;
-    margin-top: 0.5rem;
+    margin-top: 0.6rem;
 }
 
 .banner-photo img {
@@ -298,4 +298,28 @@ a:visited {
     font-weight: 600;
     font-size: 1.2rem;  
     color: #727272;
+}
+
+/* ========sponsor======= */
+.sponsor-content {
+    text-align: center;
+}
+
+.sponsor-description {
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+}
+
+.sponsor-container {
+    display: flex;
+    gap: 7rem;
+}
+
+.sponsor-container img {
+    width: 165.83px;
+    height: 50px;
+    padding: 0.3rem 0;
+    margin-top: 1.5rem;
+    mix-blend-mode: luminosity;
 }
